@@ -1,0 +1,24 @@
+{
+  "name": "habblet-web-scrapping",
+  "version": "1.0.0",
+  "description": "bot para pesquisa de usuarios habblet hotel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node buscarHabbo.js",
+    "buscarHabbo": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrocauan/habblet-web-scrapping.git"
+  },
+  "author": "98noot.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/pedrocauan/habblet-web-scrapping/issues"
+  },
+  "homepage": "https://github.com/pedrocauan/habblet-web-scrapping#readme",
+  "dependencies": {
+    "puppeteer": "^19.9.0"
+  }
+}
